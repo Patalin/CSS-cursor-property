@@ -1,0 +1,45 @@
+body {
+  background-color: #f2eee3;
+}
+
+.demo {
+  width: 250px;
+  height: 80px;
+  border: solid;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ccffcc;
+}
+
+div.waiting {
+  cursor: wait;
+}
+
+div.help {
+  cursor: help;
+}
+
+div.crosshair {
+    cursor: crosshair;
+}
+
+div.grab {
+    cursor: grab;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+.gap {
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
